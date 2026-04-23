@@ -1,0 +1,13 @@
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - var(--nav-height));
+  margin-top: var(--nav-height);
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: radial-gradient(ellipse at 65% 40%, #3a0808 0%, #1a0404 25%, #0d0d0d 60%, #050505 100%);
+}

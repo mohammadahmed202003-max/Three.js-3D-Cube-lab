@@ -1,0 +1,35 @@
+.panel {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(5, 2, 2, 0.88);
+  border: 1px solid rgba(160, 20, 20, 0.5);
+  border-radius: 10px;
+  padding: 14px 18px;
+  z-index: 50;
+  text-align: center;
+  min-width: 120px;
+  backdrop-filter: blur(6px);
+}
+
+.label {
+  color: #555;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.time {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: monospace;
+  line-height: 1;
+}
+
+.sub {
+  font-size: 10px;
+  margin-top: 8px;
+  letter-spacing: 0.3px;
+}

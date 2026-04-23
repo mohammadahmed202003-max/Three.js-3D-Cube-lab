@@ -1,0 +1,44 @@
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - var(--nav-height));
+  margin-top: var(--nav-height);
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at 65% 40%, #3a0808 0%, #1a0404 25%, #0d0d0d 60%, #050505 100%);
+}
+
+.btnWrapper {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.hint {
+  color: #555;
+  font-size: 12px;
+  margin: 0;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.btn {
+  background: #c0392b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 36px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 20px rgba(192, 57, 43, 0.4);
+}
