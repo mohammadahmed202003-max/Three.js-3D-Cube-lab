@@ -155,7 +155,7 @@ FittsLine   →  reused by both experiments (self-animating SVG overlay)
 
 ## 👨‍💻 Author
 
-**Taha Asif**
+**Ahmed Siddiqui**
 HCI Lab Assignment 
 
 ---
